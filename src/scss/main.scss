@@ -12,3 +12,41 @@ img,
 video {
   display: block;
 }
+
+button {
+  margin: 50px;
+  padding: 10px 20px;
+  background-color: white;
+  color: red;
+  display: flex;
+  gap: 10px;
+  font-family: "Roboto";
+  border-radius: 50px;
+  border: red solid 2px;
+}
+p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.heart {
+  align-content: center;
+  font-size: 18px;
+}
+.like-count {
+  font-weight: 350;
+  color: black;
+}
+.clicked {
+  background-color: red;
+  color: white;
+  .like-count {
+    color: white;
+  }
+}
+button:hover {
+  background-color: red;
+  color: white;
+  .like-count {
+    color: white;
+  }
+}
